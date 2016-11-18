@@ -13,7 +13,7 @@ Para utilizar a imagem basta configurar algumas variáveis de ambiente ao inicia
 - `MONGO_NEWRELIC_AGENT_DATABASES` - nome das databases que serão monitoradas na instância do MongoDB
 
 ## Exemplo
-Um exemplo de variáveis de ambiente usando `docker-compose`, o seu `docker-compose.yml` poderia conter:
+Para utilizar com o `docker-compose`:
 
 ```
 mongo_newrelic_agent:
